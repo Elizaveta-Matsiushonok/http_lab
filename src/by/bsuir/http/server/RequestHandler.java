@@ -2,6 +2,7 @@ package by.bsuir.http.server;
 
 public class RequestHandler {
 
+
     public String parseRequest(String requestHeader){
         if(requestHeader == null){
             throw new UnsupportedOperationException("Trying to process not GET request.");
